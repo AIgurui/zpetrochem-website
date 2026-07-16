@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Z Petrochemicals FZE — Urea Trading | Mexico &amp; Latin America</title>
+<meta name="description" content="Z Petrochemicals FZE is an independent, UAE-based trading company specializing in granular and prilled urea 46% N for Mexico and Latin America.">
+<meta property="og:title" content="Z Petrochemicals FZE — Urea Trading">
+<meta property="og:description" content="Independent urea trading for Mexico and Latin America. Granular and prilled urea 46% N, bulk and bagged, FOB / CFR / CIF.">
+<meta property="og:url" content="https://zpetrochem.com/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f2c40">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2c40'/%3E%3Cpath d='M18 20h28v7L29 44h17v7H18v-7l17-17H18z' fill='%23ffffff'/%3E%3Crect x='46' y='46' width='10' height='10' rx='3' fill='%234d9b45'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0f2c40;
+    --navy-deep:#0a1f2e;
+    --green:#3f8a38;
+    --green-dark:#35762f;
+    --cream:#f7f4ee;
+    --ink:#15242f;
+    --muted:#54646f;
+    --line:#e5e1d8;
+    --radius:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:#fff;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* ---- language toggle mechanics ---- */
+  html[data-lang="en"] .es{display:none !important}
+  html[data-lang="es"] .en{display:none !important}
+
+  .container{max-width:1100px;margin:0 auto;padding:0 24px}
+  section{padding:96px 0}
+  .kicker{
+    display:inline-block;text-transform:uppercase;letter-spacing:.18em;
+    font-size:.78rem;font-weight:700;color:var(--green);margin-bottom:14px;
+  }
+  h1,h2,h3{line-height:1.15;letter-spacing:-.01em}
+  h2{font-size:clamp(1.7rem,3.4vw,2.4rem);font-weight:800;margin-bottom:18px}
+  h3{font-size:1.15rem;font-weight:700;margin-bottom:10px}
+  p.lead{font-size:1.12rem;color:var(--muted);max-width:720px}
+
+  /* ---- nav ---- */
+  header{
+    position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+  .brand svg{flex-shrink:0}
+  .brand .word{font-weight:800;font-size:1.02rem;letter-spacing:.04em;line-height:1.1}
+  .brand .word small{display:block;font-weight:600;font-size:.66rem;letter-spacing:.28em;color:var(--muted)}
+  .nav-links{display:flex;align-items:center;gap:28px;list-style:none}
+  .nav-links a{
+    text-decoration:none;color:var(--ink);font-weight:600;font-size:.92rem;
+  }
+  .nav-links a:hover{color:var(--green)}
+  .lang-toggle{
+    display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-left:8px;
+  }
+  .lang-toggle button{
+    border:0;background:#fff;padding:6px 12px;font-family:inherit;font-weight:700;
+    font-size:.8rem;cursor:pointer;color:var(--muted);
+  }
+  .lang-toggle button.active{background:var(--navy);color:#fff}
+  .hamburger{
+    display:none;border:0;background:none;cursor:pointer;padding:8px;
+  }
+  .hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;border-radius:2px}
+
+  /* ---- hero ---- */
+  .hero{
+    background:
+      radial-gradient(900px 420px at 85% -10%, rgba(63,138,56,.28), transparent 60%),
+      linear-gradient(160deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color:#fff;padding:120px 0 110px;
+  }
+  .hero .kicker{color:#8fce85}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:800;max-width:820px;margin-bottom:22px}
+  .hero p{font-size:1.15rem;color:rgba(255,255,255,.82);max-width:680px;margin-bottom:36px}
+  .btn-row{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;text-decoration:none;font-weight:700;font-size:.95rem;
+    padding:14px 26px;border-radius:10px;transition:transform .15s ease,background .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:var(--green);color:#fff}
+  .btn-primary:hover{background:var(--green-dark)}
+  .btn-ghost{border:1.5px solid rgba(255,255,255,.4);color:#fff}
+  .btn-ghost:hover{border-color:#fff}
+
+  /* ---- pillars ---- */
+  .pillars{padding:0;transform:translateY(-46px);margin-bottom:-46px}
+  .pillars .grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+  }
+  .pillar{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px 26px 22px;box-shadow:0 12px 32px rgba(10,31,46,.08);
+  }
+  .pillar h3{font-size:1.02rem}
+  .pillar p{font-size:.92rem;color:var(--muted)}
+
+  /* ---- about ---- */
+  .about p + p{margin-top:16px}
+  .about p{color:var(--muted);max-width:760px;font-size:1.05rem}
+
+  /* ---- product ---- */
+  .product{background:var(--cream)}
+  .product-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:40px}
+  .card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px;
+  }
+  .card .tag{
+    display:inline-block;font-size:.78rem;font-weight:600;color:var(--green);
+    background:rgba(63,138,56,.1);border-radius:6px;padding:4px 10px;margin-bottom:18px;
+  }
+  table.spec{width:100%;border-collapse:collapse;font-size:.95rem}
+  table.spec td{padding:11px 0;border-bottom:1px solid var(--line)}
+  table.spec tr:last-child td{border-bottom:0}
+  table.spec td:first-child{color:var(--muted)}
+  table.spec td:last-child{text-align:right;font-weight:700}
+  .footnote{font-size:.85rem;color:var(--muted);margin-top:26px;max-width:760px}
+
+  /* ---- markets ---- */
+  .markets{
+    background:
+      radial-gradient(700px 380px at 12% 110%, rgba(63,138,56,.22), transparent 60%),
+      linear-gradient(200deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color:#fff;
+  }
+  .markets .kicker{color:#8fce85}
+  .markets p{color:rgba(255,255,255,.8)}
+  .route{margin:34px 0 10px;max-width:760px}
+  .route svg{width:100%;height:auto;display:block}
+  .markets-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
+  .market-card{
+    border:1px solid rgba(255,255,255,.16);border-radius:var(--radius);padding:28px;
+    background:rgba(255,255,255,.04);
+  }
+  .market-card h3{color:#fff}
+  .market-card p{font-size:.97rem}
+
+  /* ---- trading terms ---- */
+  .terms-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+  .term{border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+  .term .num{
+    font-size:.8rem;font-weight:800;color:var(--green);letter-spacing:.12em;margin-bottom:12px;display:block;
+  }
+  .term p{color:var(--muted);font-size:.97rem}
+
+  /* ---- compliance ---- */
+  .compliance{background:var(--cream);padding:56px 0}
+  .compliance .inner{
+    display:flex;gap:20px;align-items:flex-start;max-width:860px;
+  }
+  .compliance svg{flex-shrink:0;margin-top:4px}
+  .compliance p{color:var(--muted);font-size:.97rem}
+  .compliance h3{font-size:1rem;margin-bottom:6px}
+
+  /* ---- contact ---- */
+  .contact{text-align:center}
+  .contact p.lead{margin:0 auto 34px}
+  .contact-email{
+    display:inline-block;font-size:clamp(1.15rem,3vw,1.7rem);font-weight:800;
+    color:var(--navy);text-decoration:none;border-bottom:3px solid var(--green);
+    padding-bottom:4px;margin-bottom:26px;word-break:break-all;
+  }
+  .contact-email:hover{color:var(--green)}
+  .contact .org{color:var(--muted);font-size:.95rem}
+
+  /* ---- footer ---- */
+  footer{background:var(--navy-deep);color:rgba(255,255,255,.65);padding:48px 0}
+  .foot{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;align-items:flex-start}
+  .foot .word{font-weight:800;color:#fff;letter-spacing:.04em}
+  .foot .word small{display:block;font-weight:600;font-size:.66rem;letter-spacing:.28em;color:rgba(255,255,255,.5)}
+  .foot p{font-size:.9rem;max-width:340px;margin-top:10px}
+  .foot a{color:rgba(255,255,255,.85);text-decoration:none}
+  .foot a:hover{color:#8fce85}
+  .foot ul{list-style:none;font-size:.9rem}
+  .foot ul li{margin-bottom:8px}
+  .copyright{margin-top:36px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12);font-size:.82rem}
+
+  /* ---- responsive ---- */
+  @media (max-width:860px){
+    .nav-links{
+      display:none;position:absolute;top:72px;left:0;right:0;background:#fff;
+      flex-direction:column;align-items:flex-start;padding:18px 24px 24px;gap:18px;
+      border-bottom:1px solid var(--line);
+    }
+    .nav-links.open{display:flex}
+    .hamburger{display:block}
+    .pillars .grid,.product-grid,.markets-grid,.terms-grid{grid-template-columns:1fr}
+    section{padding:72px 0}
+    .hero{padding:88px 0 92px}
+    .pillars{transform:translateY(-30px);margin-bottom:-30px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Z Petrochemicals FZE — home">
+      <svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#0f2c40"/>
+        <path d="M18 20h28v7L29 44h17v7H18v-7l17-17H18z" fill="#ffffff"/>
+        <rect x="46" y="46" width="10" height="10" rx="3" fill="#3f8a38"/>
+      </svg>
+      <span class="word">Z&nbsp;PETROCHEMICALS<small>FZE&nbsp;·&nbsp;UAE</small></span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about"><span class="en">About</span><span class="es" lang="es">Nosotros</span></a></li>
+        <li><a href="#product"><span class="en">Product</span><span class="es" lang="es">Producto</span></a></li>
+        <li><a href="#markets"><span class="en">Markets</span><span class="es" lang="es">Mercados</span></a></li>
+        <li><a href="#trading"><span class="en">Trading</span><span class="es" lang="es">Comercio</span></a></li>
+        <li><a href="#contact"><span class="en">Contact</span><span class="es" lang="es">Contacto</span></a></li>
+        <li>
+          <div class="lang-toggle" role="group" aria-label="Language / Idioma">
+            <button type="button" id="btnEN" onclick="setLang('en')">EN</button>
+            <button type="button" id="btnES" onclick="setLang('es')">ES</button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" style="padding-top:110px">
+    <div class="container">
+      <span class="kicker">
+        <span class="en">Independent urea trading — United Arab Emirates</span>
+        <span class="es" lang="es">Comercio independiente de urea — Emiratos Árabes Unidos</span>
+      </span>
+      <h1>
+        <span class="en">Reliable urea supply for Mexico and Latin America.</span>
+        <span class="es" lang="es">Suministro confiable de urea para México y América Latina.</span>
+      </h1>
+      <p>
+        <span class="en">Z Petrochemicals FZE is an independent trading company based in the United Arab Emirates, focused on one product and one region: granular and prilled urea for Mexican and Latin American buyers.</span>
+        <span class="es" lang="es">Z Petrochemicals FZE es una casa comercial independiente con sede en los Emiratos Árabes Unidos, enfocada en un solo producto y una sola región: urea granulada y perlada para compradores de México y América Latina.</span>
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="mailto:zareen.ahmed@zpetrochem.com?subject=Urea%20enquiry%20%E2%80%94%20zpetrochem.com">
+          <span class="en">Request an offer</span>
+          <span class="es" lang="es">Solicitar cotización</span>
+        </a>
+        <a class="btn btn-ghost" href="#product">
+          <span class="en">View specifications</span>
+          <span class="es" lang="es">Ver especificaciones</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PILLARS ============ -->
+  <section class="pillars" aria-label="Highlights">
+    <div class="container grid">
+      <div class="pillar">
+        <h3><span class="en">One product: urea 46% N</span><span class="es" lang="es">Un solo producto: urea 46% N</span></h3>
+        <p>
+          <span class="en">Granular and prilled urea — the world's most traded nitrogen fertilizer. We focus on doing one thing properly.</span>
+          <span class="es" lang="es">Urea granulada y perlada: el fertilizante nitrogenado más comercializado del mundo. Nos enfocamos en hacer una sola cosa, y hacerla bien.</span>
+        </p>
+      </div>
+      <div class="pillar">
+        <h3><span class="en">One region: Mexico &amp; Latin America</span><span class="es" lang="es">Una región: México y América Latina</span></h3>
+        <p>
+          <span class="en">Our attention is on Mexican ports and farms first, with the wider Latin American market alongside.</span>
+          <span class="es" lang="es">Nuestra atención está puesta primero en los puertos y el campo de México, y también en el mercado latinoamericano en general.</span>
+        </p>
+      </div>
+      <div class="pillar">
+        <h3><span class="en">Based in the UAE</span><span class="es" lang="es">Con sede en los EAU</span></h3>
+        <p>
+          <span class="en">A free-zone establishment positioned close to Middle East export supply — one of the world's principal urea-producing regions.</span>
+          <span class="es" lang="es">Un establecimiento de zona franca ubicado cerca de la oferta exportadora de Medio Oriente, una de las principales regiones productoras de urea del mundo.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container">
+      <span class="kicker"><span class="en">Who we are</span><span class="es" lang="es">Quiénes somos</span></span>
+      <h2>
+        <span class="en">A focused, independent trading house.</span>
+        <span class="es" lang="es">Una casa comercial independiente y enfocada.</span>
+      </h2>
+      <p>
+        <span class="en">Z Petrochemicals FZE is an independent commodity trading company, registered as a free zone establishment (FZE) in the United Arab Emirates. We specialize exclusively in the physical trade of urea, connecting export supply with import demand in Mexico and across Latin America.</span>
+        <span class="es" lang="es">Z Petrochemicals FZE es una empresa comercializadora independiente, registrada como establecimiento de zona franca (FZE) en los Emiratos Árabes Unidos. Nos especializamos exclusivamente en el comercio físico de urea, conectando la oferta de exportación con la demanda de importación en México y en toda América Latina.</span>
+      </p>
+      <p>
+        <span class="en">Our model is deliberately simple: originate cargoes from established producing regions, arrange shipment, inspection and documentation, and deliver on the terms agreed — with clear communication at every step. We aim to earn our place in every transaction through competitive pricing, dependable execution and straightforward dealing.</span>
+        <span class="es" lang="es">Nuestro modelo es deliberadamente simple: originar cargamentos en regiones productoras establecidas; coordinar el embarque, la inspección y la documentación; y entregar conforme a los términos acordados, con comunicación clara en cada etapa. Buscamos ganarnos un lugar en cada operación mediante precios competitivos, una ejecución confiable y un trato directo.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT ============ -->
+  <section class="product" id="product">
+    <div class="container">
+      <span class="kicker"><span class="en">Product</span><span class="es" lang="es">Producto</span></span>
+      <h2>Urea 46% N <span style="color:var(--muted);font-weight:600">(46-0-0)</span></h2>
+      <p class="lead">
+        <span class="en">White, free-flowing and treated with anti-caking agent — available as granular or prilled, in bulk or bags.</span>
+        <span class="es" lang="es">Blanca, de flujo libre y tratada con antiaglomerante; disponible granulada o perlada, a granel o en sacos.</span>
+      </p>
+      <div class="product-grid">
+        <div class="card">
+          <h3><span class="en">Granular urea</span><span class="es" lang="es">Urea granulada</span></h3>
+          <span class="tag">
+            <span class="en">Preferred for direct application and bulk handling</span>
+            <span class="es" lang="es">Preferida para aplicación directa y manejo a granel</span>
+          </span>
+          <table class="spec">
+            <tr><td><span class="en">Total nitrogen</span><span class="es" lang="es">Nitrógeno total</span></td><td>46.0% min</td></tr>
+            <tr><td>Biuret</td><td>1.0% max</td></tr>
+            <tr><td><span class="en">Moisture</span><span class="es" lang="es">Humedad</span></td><td>0.5% max</td></tr>
+            <tr><td><span class="en">Granulometry</span><span class="es" lang="es">Granulometría</span></td><td>2–4 mm · 90% min</td></tr>
+          </table>
+        </div>
+        <div class="card">
+          <h3><span class="en">Prilled urea</span><span class="es" lang="es">Urea perlada</span></h3>
+          <span class="tag">
+            <span class="en">Widely used in blending and traditional markets</span>
+            <span class="es" lang="es">Ampliamente utilizada en mezclas físicas y mercados tradicionales</span>
+          </span>
+          <table class="spec">
+            <tr><td><span class="en">Total nitrogen</span><span class="es" lang="es">Nitrógeno total</span></td><td>46.0% min</td></tr>
+            <tr><td>Biuret</td><td>1.0% max</td></tr>
+            <tr><td><span class="en">Moisture</span><span class="es" lang="es">Humedad</span></td><td>0.5% max</td></tr>
+            <tr><td><span class="en">Prill size</span><span class="es" lang="es">Tamaño de perla</span></td><td>0.85–2.8 mm · 90% min</td></tr>
+          </table>
+        </div>
+      </div>
+      <p class="footnote">
+        <span class="en">Typical specifications for internationally traded urea, shown for reference. Firm specifications for each cargo are stated in the offer and supported by a certificate of analysis (COA) issued at loading.</span>
+        <span class="es" lang="es">Especificaciones típicas de la urea comercializada internacionalmente, mostradas como referencia. Las especificaciones en firme de cada cargamento se indican en la oferta y se respaldan con un certificado de análisis (COA) emitido al embarque.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ MARKETS ============ -->
+  <section class="markets" id="markets">
+    <div class="container">
+      <span class="kicker"><span class="en">Markets</span><span class="es" lang="es">Mercados</span></span>
+      <h2>
+        <span class="en">Mexico first. Latin America alongside.</span>
+        <span class="es" lang="es">México primero. América Latina también.</span>
+      </h2>
+      <div class="route" aria-hidden="true">
+        <svg viewBox="0 0 800 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M90 140 Q 400 -30 710 110" stroke="rgba(255,255,255,.45)" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+          <circle cx="710" cy="110" r="7" fill="#3f8a38"/>
+          <circle cx="710" cy="110" r="14" fill="#3f8a38" opacity=".25"/>
+          <circle cx="90" cy="140" r="7" fill="#8fce85"/>
+          <circle cx="90" cy="140" r="14" fill="#8fce85" opacity=".25"/>
+          <text x="710" y="150" text-anchor="middle" fill="rgba(255,255,255,.75)" font-family="Archivo, sans-serif" font-size="13" font-weight="700" letter-spacing="2">UAE</text>
+          <text x="90" y="178" text-anchor="middle" fill="rgba(255,255,255,.75)" font-family="Archivo, sans-serif" font-size="13" font-weight="700" letter-spacing="2">MEX</text>
+        </svg>
+      </div>
+      <div class="markets-grid">
+        <div class="market-card">
+          <h3><span class="en">Mexico — our core market</span><span class="es" lang="es">México: nuestro mercado principal</span></h3>
+          <p>
+            <span class="en">Mexico imports the large majority of the urea it consumes, with demand driven by corn, wheat, sugarcane and horticulture across regions such as Sinaloa, Sonora and the Bajío. We quote deliveries to both coasts — Gulf ports such as Veracruz, Altamira and Tampico, and Pacific ports such as Lázaro Cárdenas and Topolobampo — in bulk or bagged form.</span>
+            <span class="es" lang="es">México importa la gran mayoría de la urea que consume, con una demanda impulsada por el maíz, el trigo, la caña de azúcar y la horticultura en regiones como Sinaloa, Sonora y el Bajío. Cotizamos entregas en ambas costas —puertos del Golfo como Veracruz, Altamira y Tampico, y puertos del Pacífico como Lázaro Cárdenas y Topolobampo—, a granel o en sacos.</span>
+          </p>
+        </div>
+        <div class="market-card">
+          <h3><span class="en">Wider Latin America</span><span class="es" lang="es">Resto de América Latina</span></h3>
+          <p>
+            <span class="en">Beyond Mexico, we follow urea demand across the region — from Central America to the Andean markets and the Southern Cone — for spot cargoes as well as recurring supply.</span>
+            <span class="es" lang="es">Más allá de México, seguimos la demanda de urea en toda la región —de Centroamérica a los mercados andinos y el Cono Sur—, tanto para cargamentos spot como para suministro recurrente.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRADING TERMS ============ -->
+  <section id="trading">
+    <div class="container">
+      <span class="kicker"><span class="en">How we trade</span><span class="es" lang="es">Cómo operamos</span></span>
+      <h2>
+        <span class="en">Standard terms, properly documented.</span>
+        <span class="es" lang="es">Términos estándar, debidamente documentados.</span>
+      </h2>
+      <div class="terms-grid">
+        <div class="term">
+          <span class="num">01</span>
+          <h3><span class="en">Shipment</span><span class="es" lang="es">Embarque</span></h3>
+          <p>
+            <span class="en">FOB, CFR and CIF (Incoterms 2020). Bulk vessel cargoes as well as containerized bagged parcels.</span>
+            <span class="es" lang="es">FOB, CFR y CIF (Incoterms 2020). Cargamentos a granel en buque, así como lotes ensacados en contenedor.</span>
+          </p>
+        </div>
+        <div class="term">
+          <span class="num">02</span>
+          <h3><span class="en">Packaging</span><span class="es" lang="es">Empaque</span></h3>
+          <p>
+            <span class="en">Bulk; 50 kg polypropylene bags with inner liner; 500–1,000 kg jumbo bags (FIBC).</span>
+            <span class="es" lang="es">A granel; sacos de polipropileno de 50 kg con liner interior; sacos jumbo (FIBC) de 500 a 1,000 kg.</span>
+          </p>
+        </div>
+        <div class="term">
+          <span class="num">03</span>
+          <h3><span class="en">Payment</span><span class="es" lang="es">Pago</span></h3>
+          <p>
+            <span class="en">Irrevocable letter of credit at sight through first-class banks; other structures by mutual agreement.</span>
+            <span class="es" lang="es">Carta de crédito irrevocable y a la vista a través de bancos de primer nivel; otras estructuras por mutuo acuerdo.</span>
+          </p>
+        </div>
+        <div class="term">
+          <span class="num">04</span>
+          <h3><span class="en">Inspection &amp; documents</span><span class="es" lang="es">Inspección y documentos</span></h3>
+          <p>
+            <span class="en">Independent inspection at load port (SGS, Intertek or equivalent) and full export documentation: certificate of analysis, certificate of origin, bill of lading.</span>
+            <span class="es" lang="es">Inspección independiente en el puerto de carga (SGS, Intertek o equivalente) y documentación completa de exportación: certificado de análisis, certificado de origen y conocimiento de embarque.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPLIANCE ============ -->
+  <section class="compliance">
+    <div class="container inner">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 2l8 3.5v5.1c0 5-3.4 9.6-8 11.4-4.6-1.8-8-6.4-8-11.4V5.5L12 2z" stroke="#3f8a38" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M8.5 12l2.4 2.4 4.6-4.8" stroke="#3f8a38" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <h3><span class="en">Compliance comes first</span><span class="es" lang="es">El cumplimiento es primero</span></h3>
+        <p>
+          <span class="en">We conduct know-your-counterparty due diligence on every transaction, screen for sanctions compliance, state product origin accurately, and maintain zero tolerance for bribery and corruption.</span>
+          <span class="es" lang="es">Realizamos debida diligencia de contrapartes en cada operación, verificamos el cumplimiento en materia de sanciones, declaramos con precisión el origen del producto y mantenemos cero tolerancia ante el soborno y la corrupción.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="kicker"><span class="en">Contact</span><span class="es" lang="es">Contacto</span></span>
+      <h2>
+        <span class="en">Request an offer.</span>
+        <span class="es" lang="es">Solicite una cotización.</span>
+      </h2>
+      <p class="lead">
+        <span class="en">Tell us your destination port, volume, packaging and preferred shipment window — we will come back to you promptly.</span>
+        <span class="es" lang="es">Indíquenos su puerto de destino, volumen, empaque y ventana de embarque preferida, y le responderemos a la brevedad.</span>
+      </p>
+      <a class="contact-email" href="mailto:zareen.ahmed@zpetrochem.com">zareen.ahmed@zpetrochem.com</a>
+      <p class="org">
+        Z Petrochemicals FZE ·
+        <span class="en">United Arab Emirates</span>
+        <span class="es" lang="es">Emiratos Árabes Unidos</span>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div>
+        <span class="word">Z&nbsp;PETROCHEMICALS<small>FZE&nbsp;·&nbsp;UAE</small></span>
+        <p>
+          <span class="en">Independent urea trading for Mexico and Latin America.</span>
+          <span class="es" lang="es">Comercio independiente de urea para México y América Latina.</span>
+        </p>
+      </div>
+      <ul>
+        <li><a href="#about"><span class="en">About</span><span class="es" lang="es">Nosotros</span></a></li>
+        <li><a href="#product"><span class="en">Product</span><span class="es" lang="es">Producto</span></a></li>
+        <li><a href="#markets"><span class="en">Markets</span><span class="es" lang="es">Mercados</span></a></li>
+        <li><a href="#trading"><span class="en">Trading</span><span class="es" lang="es">Comercio</span></a></li>
+      </ul>
+      <ul>
+        <li><a href="mailto:zareen.ahmed@zpetrochem.com">zareen.ahmed@zpetrochem.com</a></li>
+        <li><a href="https://zpetrochem.com">zpetrochem.com</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      © 2026 Z Petrochemicals FZE.
+      <span class="en">All rights reserved.</span>
+      <span class="es" lang="es">Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var TITLES = {
+    en: 'Z Petrochemicals FZE — Urea Trading | Mexico & Latin America',
+    es: 'Z Petrochemicals FZE — Comercio de Urea | México y América Latina'
+  };
+  function setLang(l) {
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', l);
+    document.title = TITLES[l];
+    document.getElementById('btnEN').classList.toggle('active', l === 'en');
+    document.getElementById('btnES').classList.toggle('active', l === 'es');
+    try { localStorage.setItem('lang', l); } catch (e) {}
+  }
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('lang'); } catch (e) {}
+    var browser = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+    setLang(saved === 'en' || saved === 'es' ? saved : browser);
+  })();
+
+  var burger = document.getElementById('hamburger');
+  var links = document.getElementById('navLinks');
+  burger.addEventListener('click', function () {
+    var open = links.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', function (e) {
+    if (e.target.closest('a')) {
+      links.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+    }
+  });
+</script>
+
+</body>
+</html>
