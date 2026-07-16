@@ -1,7 +1,7 @@
-# Z Petrochemicals FZE — Website
+# Z Petrochem FZE — Website
 
-Corporate website for Z Petrochemicals FZE, a UAE-based trading company specializing
-in urea supply to Mexico and Latin America.
+Corporate website for Z Petrochem FZE (Trade License No. 23189, Hamriyah Free Zone,
+Sharjah, UAE), a trading company specializing in urea supply to Mexico and Latin America.
 
 - **Live site:** https://zpetrochem.com
 - **Hosting:** GitHub Pages (static, no build step)
